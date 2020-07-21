@@ -1,3 +1,36 @@
-body{
-    color:red
+#main {
+  /* margin: 0 auto; */
+
+  /* text-align: center; */
+  background-color: #3333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+  margin: 0 auto;
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
+li {
+  /* margin: 0 16px; */
 }
